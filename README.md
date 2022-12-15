@@ -21,4 +21,6 @@
 - [x] wp_register_sсript();
 - [ ] function_exists();
 
+- [ ] default scripts included with WP
+
 ---
