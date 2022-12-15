@@ -5,6 +5,11 @@
  * @package Twenty Quarantino
  */
 
+if (!defined('TWENTYQUARANTINO_DIR_PATH')) {
+  define('TWENTYQUARANTINO_DIR_PATH', untrailingslashit(get_template_directory()));
+}
+
+require_once TWENTYQUARANTINO_DIR_PATH . '/inc/helpers/autoloader.php';
 function twentyquarantino_enqueue_scripts()
 {
   // Register Styles

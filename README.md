@@ -30,6 +30,13 @@ Important Concepts(php):
 - [x] Namespaces
 - [x] Autoloaders spl_autoload_register();
 - [x] Traits
-- [ ] Singleton
+- [x] Singleton
+
+- [ ] get_called_class();
+- [ ] isset();
+- [x] defined();
+- [x] define();
+- [ ] untrailingslashit();
+- [ ]
 
 ---
