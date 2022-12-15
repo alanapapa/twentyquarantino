@@ -1,0 +1,17 @@
+_book
+nbproject
+nbproject/private/
+nbbuild/
+dist/
+nddist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+*.log
+npm-debug.log
+node-modules
+**/.DS_Store
+*.map
+.greyhr
+Thumbs.db
+sftp-config.json
