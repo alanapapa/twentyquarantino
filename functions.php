@@ -10,6 +10,11 @@ if (!defined('TWENTYQUARANTINO_DIR_PATH')) {
 }
 
 require_once TWENTYQUARANTINO_DIR_PATH . '/inc/helpers/autoloader.php';
+
+function twentyquarantino_get_theme_instance()
+{
+  \TWENTYQUARANTINO_THEME\Inc\TWENTYQUARANTINO_THEME::get_instance();
+}
 function twentyquarantino_enqueue_scripts()
 {
   // Register Styles

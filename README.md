@@ -21,9 +21,15 @@
 - [x] wp_register_sсript();
 - [ ] function_exists();
 
+---
+
 - [ ] default scripts included with WP
 
+---
+
 - [ ] get_template_part();
+
+---
 
 Important Concepts(php):
 
@@ -32,11 +38,14 @@ Important Concepts(php):
 - [x] Traits
 - [x] Singleton
 
+---
+
 - [ ] get_called_class();
 - [ ] isset();
 - [x] defined();
 - [x] define();
 - [ ] untrailingslashit();
-- [ ]
 
 ---
+
+- [ ]
