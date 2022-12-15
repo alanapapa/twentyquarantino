@@ -23,4 +23,13 @@
 
 - [ ] default scripts included with WP
 
+- [ ] get_template_part();
+
+Important Concepts(php):
+
+- [x] Namespaces
+- [x] Autoloaders spl_autoload_register();
+- [x] Traits
+- [ ] Singleton
+
 ---
