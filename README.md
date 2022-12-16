@@ -10,7 +10,7 @@
 - [x] body_class();
 - [x] add_action(hook, callback);
 - [x] wp_enqueue_style();
-- [x] wp_enqueue_scripts(); // hook
+- [x] wp_enqueue_scripts; // hook
 - [x] get_template_directory_uri();
 - [x] print_r();
 - [x] wp_die();
@@ -27,7 +27,7 @@
 
 ---
 
-- [ ] get_template_part();
+- [x] get_template_part();
 
 ---
 
@@ -40,12 +40,33 @@ Important Concepts(php):
 
 ---
 
-- [ ] get_called_class();
-- [ ] isset();
+- [x] get_called_class();
+- [x] isset();
 - [x] defined();
 - [x] define();
-- [ ] untrailingslashit();
+- [x] untrailingslashit();
 
 ---
 
-- [ ]
+- [x] add_theme_support();
+- [x] after_setup_theme; //hook
+
+---
+
+- [x] register_nav_menus();
+- [x] esc_html;
+- [x] wp_nav_menu();
+- [x] wp_get_nav_menu_items();
+- [x] get_nav_menu_locations();
+- [x] intval();
+- [x] esc_url();
+
+---
+
+```
+echo '<pre>';
+print_r();
+wp_die();
+```
+
+---
